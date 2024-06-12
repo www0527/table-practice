@@ -117,6 +117,7 @@ const Table = () => {
     };
 
     return (<>
+        <div className="title">溫水洗淨便座規格表</div>
         <table style={{ width: "100%", borderCollapse: "collapse", }}>
             {/* 機種 */}
             <tr>
