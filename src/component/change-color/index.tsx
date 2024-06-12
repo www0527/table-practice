@@ -14,7 +14,7 @@ export default function ChangeColors(){
         setColorIndex(( preIndex ) => (preIndex + 1) % colors.length)
     }
     const handleDefault = ()=>{
-        setColorIndex(0)
+        setColorIndex( (preIndex) => preIndex = 0)
     }
     return (
         <>
